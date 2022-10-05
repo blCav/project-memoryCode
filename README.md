@@ -1,29 +1,25 @@
 # project-memoryCode
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue.js project.
 
-## Recommended IDE Setup
+Project in French language.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Technologies used : Vue.js & Bootstrap
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
+#### To start the project :
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+-------- 
 
-```sh
-npm run build
+Site en Vue.js .
+
+Technologies utilisées : Vue.js & Bootstrap
+
+#### Pour démarrer le projet :
+
+```shsh
+npm run dev
 ```
