@@ -45,7 +45,7 @@ export default {
     // Ajouter un site à la base de donnée
     addSite(site) {
       fetch(
-        "https://memorycode-ee3dc-default-rtdb.firebaseio.com/sites.json",
+        "https://memorycodeapp-default-rtdb.firebaseio.com/sites.json",
         {
           method: "POST",
           headers: {
@@ -57,7 +57,7 @@ export default {
     },
     loadSite() {
       fetch(
-        "https://memorycode-ee3dc-default-rtdb.firebaseio.com/sites.json"
+        "https://memorycodeapp-default-rtdb.firebaseio.com/sites.json"
       )
         .then((response) => {
           console.log("response", response);

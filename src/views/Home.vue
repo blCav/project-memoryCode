@@ -113,7 +113,7 @@ export default {
     // Chargement des données
     loadSite() {
       let url =
-        "https://memorycode-ee3dc-default-rtdb.firebaseio.com/sites.json";
+        "https://memorycodeapp-default-rtdb.firebaseio.com/sites.json";
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
@@ -156,7 +156,7 @@ export default {
         )
       ) {
         fetch(
-          `https://memorycode-ee3dc-default-rtdb.firebaseio.com/sites/${id}.json`,
+          `https://memorycodeapp-default-rtdb.firebaseio.com/sites/${id}.json`,
           {
             method: "DELETE",
           }
